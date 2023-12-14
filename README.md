@@ -19,19 +19,19 @@ Utilized Nessus Essentials to perform credentialed scans on local VMs hosted wit
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Launching Windows VM: <br/>
+Spin up a virtual machine in VMware : <br/>
 <img src="" height="80%" width="80%" alt=""/>
 <br />
 <br />
-Select the disk:  <br/>
+input VM IP Adress into Nessus :  <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
+Configure the VM to accept authenticated scans: <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
+Add credentials into Nessus:  <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
