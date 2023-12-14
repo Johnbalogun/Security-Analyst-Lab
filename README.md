@@ -34,17 +34,16 @@ Configure the VM to accept authenticated scans: <br/>
 Add credentials into Nessus:  <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Wait for process to complete (may take some time):  <br/>
+<br /> 
+ Start Nessus Scan (Discover, Assess and Report):  <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
+Remediate/Verify based on suggestion:  <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
