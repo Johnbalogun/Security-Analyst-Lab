@@ -21,7 +21,7 @@ Utilized Nessus Essentials to perform credentialed scans on local VMs hosted wit
 <p align="center">
 Spin up a virtual machine in VMware : <br/>
 <img src="" height="80%" width="80%" alt=""/>
-<br />
+<br /> Spun up a virtual machine in VMware running windows 10, pulled up the CL to find the IP address of the virtual machine using “Ipconfig” command. Pinged the found IP address using Command “ping type IP address” from my native pc also using CL. 
 <br />
 input VM IP Adress into Nessus :  <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
