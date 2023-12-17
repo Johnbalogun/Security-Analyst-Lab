@@ -36,7 +36,7 @@ Installed Deprecated version of Firefox on VM: <br/>
 <br />
 
  
-inputed VM IP Adress into Nessus :  <br/>
+Inputed VM IP Adress into Nessus :  <br/>
 <img src="https://imgur.com/jCNzNJS.png" height="80%" width="80%" alt=""/>
 <br /> Once the IP address for the VM was been established I then entered it into Nessus (which was already installed and set up at this stage). Logged in and created a new scan. Pasted the VM IP Address into the “target box” to do a light manual port scan just to verify the scanner is connecting to the VM. I then Configured the VM to accept authenticated scans.
 <br />
@@ -47,7 +47,7 @@ Add credentials into Nessus :  <br/>
 <br /> 
 
 
- Start Nessus Scan (Discover, Assess and Report):  <br/>
+ Started Nessus Scan (Discover, Assess and Report):  <br/>
 <img src="https://imgur.com/8mAMBN4.png" height="80%" width="80%" alt=""/>
 <br /> Launched the new scan. Once the scan was finished and all the vulnerabilities were listed, I assess from critical to low. I then Clicked the remediation tab to see suggestion. 
 <br />
