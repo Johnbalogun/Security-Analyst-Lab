@@ -23,20 +23,22 @@ Utilized Nessus Essentials to perform credentialed scans on local VMs hosted wit
  
 Spin up a virtual machine in VMware : <br/>
 <img src="https://imgur.com/YTA3xYz.png" height="80%" width="80%" alt=""/>
-<br /> Spun up a virtual machine in VMware running windows 10, pulled up the CL to find the IP address of the virtual machine using “Ipconfig” command. Pinged the found IP address using Command “ping type IP address” from my native pc also using CL: <br/>
-<img src="" height="80%" width="80%" alt=""/>
+<br /> Spun up a virtual machine in VMware running windows 10, pulled up the CL to find the IP address of the virtual machine using “Ipconfig” command. Pinged the found IP address using Command “ping type IP address” from my native pc also using CL: 
+<br/>
 <br />
+
+
 <img src="https://imgur.com/5jE0SCy.png" height="80%" width="80%" alt=""/>
 
-Installed Deprecated version of Firefox on your VM: <br/>
+Installed Deprecated version of Firefox on VM: <br/>
 <img src="https://imgur.com/cv74TNR.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 
  
-input VM IP Adress into Nessus :  <br/>
+inputed VM IP Adress into Nessus :  <br/>
 <img src="https://imgur.com/jCNzNJS.png" height="80%" width="80%" alt=""/>
-<br /> Once the IP address for the VM was been established I then entered it into Nessus (which was already installed and set up at this stage). Logged in and created a new scan. Pasted the VM IP Address into the “target box” to do a light manual port scan just to verify the scanner is connecting to the VM. I then Configured the VM to accept authenticated scans. machine.
+<br /> Once the IP address for the VM was been established I then entered it into Nessus (which was already installed and set up at this stage). Logged in and created a new scan. Pasted the VM IP Address into the “target box” to do a light manual port scan just to verify the scanner is connecting to the VM. I then Configured the VM to accept authenticated scans.
 <br />
 
 
