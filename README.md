@@ -43,7 +43,7 @@ Inputted VM IP Address into Nessus :  <br/>
 
 
 Add credentials into Nessus :  <br/>
-<br /> Went back into Nessus to add a set of credentials to prep for a deeper scan. Typed in the username and password of your VM into the respective columns in Nessus and ran another scan.
+<br /> Went back into Nessus to add a set of credentials to prep for a deeper scan. Typed in the username and password of the VM into the respective columns in Nessus and ran another scan.
 <br /> 
 
 
