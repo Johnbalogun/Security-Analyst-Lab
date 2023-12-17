@@ -24,12 +24,12 @@ Utilized Nessus Essentials to perform credentialed scans on local VMs hosted wit
 Spin up a virtual machine in VMware : <br/>
 <img src="https://imgur.com/YTA3xYz.png" height="80%" width="80%" alt=""/>
 <br /> Spun up a virtual machine in VMware running windows 10, pulled up the CL to find the IP address of the virtual machine using “Ipconfig” command. Pinged the found IP address using Command “ping type IP address” from my native pc also using CL: <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt=""/>
 <br />
 <img src="https://imgur.com/5jE0SCy.png" height="80%" width="80%" alt=""/>
 
 Installed Deprecated version of Firefox on your VM: <br/>
-<img src="https://imgur.com/cv74TNR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/cv74TNR.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 
@@ -40,20 +40,27 @@ input VM IP Adress into Nessus :  <br/>
 <br />
 
 
-Add credentials into Nessus:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add credentials into Nessus :  <br/>
 <br /> Went back into Nessus to add a set of credentials to prep for a deeper scan. Typed in the username and password of your VM into the respective columns in Nessus and ran another scan.
 <br /> 
+
+
  Start Nessus Scan (Discover, Assess and Report):  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/8mAMBN4.png" height="80%" width="80%" alt=""/>
 <br /> Launched the new scan. Once the scan was finished and all the vulnerabilities were listed, I assess from critical to low. I then Clicked the remediation tab to see suggestion. 
 <br />
+
+<img src="https://imgur.com/rJJ2HCo.png" height="80%" width="80%" alt=""/>
+
+
 Remediate/Verify based on suggestion:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/H3zM40U.png" height="80%" width="80%" alt=""/>
 <br /> Went into the VM and pulled up the Firefox uninstall file to uninstall the deprecated version of Firefox previously installed as part of the remediation process.
 <br />
+
+
 windows update:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/JqmbsZB.png"/>
 <br /> Launched windows update and restarted the VM once the update process finished.
 <br />
  relaunch scan and Verify :  <br/>
