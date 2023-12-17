@@ -26,18 +26,20 @@ Spin up a virtual machine in VMware : <br/>
 <br /> Spun up a virtual machine in VMware running windows 10, pulled up the CL to find the IP address of the virtual machine using “Ipconfig” command. Pinged the found IP address using Command “ping type IP address” from my native pc also using CL: <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<img src="https://imgur.com/5jE0SCy.png" height="80%" width="80%" alt=""/>
+
+Installed Deprecated version of Firefox on your VM: <br/>
+<img src="https://imgur.com/cv74TNR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
  
 input VM IP Adress into Nessus :  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/jCNzNJS.png" height="80%" width="80%" alt=""/>
 <br /> Once the IP address for the VM was been established I then entered it into Nessus (which was already installed and set up at this stage). Logged in and created a new scan. Pasted the VM IP Address into the “target box” to do a light manual port scan just to verify the scanner is connecting to the VM. I then Configured the VM to accept authenticated scans. machine.
 <br />
 
 
-Installed Deprecated version of Firefox on your VM: <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 Add credentials into Nessus:  <br/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /> Went back into Nessus to add a set of credentials to prep for a deeper scan. Typed in the username and password of your VM into the respective columns in Nessus and ran another scan.
